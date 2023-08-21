@@ -1,0 +1,66 @@
+.app {
+  width: 412px;
+  height: 915px;
+  /* background-color: rgb(1, 0, 45); */
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 8px;
+  background-color: rgb(1, 0, 45);
+  outline: 1px solid #000000;
+}
+.signal-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  max-height: 30px;
+  height: 100%;
+  background-color: #fff;
+  align-items: center;
+  gap: 5px;
+  padding: 0 10px;
+}
+.transcript-wrapper {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.m-40 {
+  margin: 40px 0;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.voice-recog-text {
+  color: #fff;
+  font-family: "Poppins", sans-serif !important;
+}
+.voice-recog-text.before {
+  color: rgb(75, 75, 80);
+}
+
+.action-button {
+  background-color: rgb(43, 163, 210) !important;
+  outline: none !important;
+}
+.action-button-icon {
+  width: 20px;
+}
+.signal-icons1 {
+  width: 16px;
+  height: 16px;
+}
+.signal-icons2 {
+  width: 17px;
+  height: 17px;
+}
+.signal-icons3 {
+  width: 20px;
+  height: 20px;
+}
